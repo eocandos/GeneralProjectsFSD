@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #90bade;
+}
+
+.flex-container > div {
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: #90bade;
+    background: white;
+}
+
+.flex-container-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .flex-container-title > div {
+    line-height: 50px;
+    vertical-align: middle;
+} */
