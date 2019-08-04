@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Simple App 1.0';
+  title = 'Simple App 2.0';
+
+  constructor() {
+
+    interface Person {
+      id: number,
+      name: string
+    }
+  }
 }
